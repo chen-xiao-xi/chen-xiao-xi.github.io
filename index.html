@@ -1,0 +1,591 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="晨曦">
+<meta property="og:url" content="http://chen-xiao-xi.github.io/index.html">
+<meta property="og:site_name" content="晨曦">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  <title>晨曦</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"chen-xiao-xi.github.io","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head>
+
+
+<body>
+  <header style="height: 100vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>晨曦</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="种树的最好时间是在十年前，其次就是现在">
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/06/16/%E2%80%9C%E4%B9%A6%E5%BA%8F%E2%80%9D%E5%B0%8F%E6%84%9F/" target="_self">
+          “读序”小感
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/06/16/%E2%80%9C%E4%B9%A6%E5%BA%8F%E2%80%9D%E5%B0%8F%E6%84%9F/" target="_self">
+          
+          一位真正的作家永远只为内心写作，只有内心才会真实的告诉他，他的自私，他的高尚是多么突出。内心让他真实的了解自己，一旦了解了自己，也就了解了世界。 那一个真正自由，向往生活，热爱生活，刻苦学习的人，是不是也该听从自己的内心，只有内心会真实的告诉我，我的懒惰，我的肮脏，我的虚伪，我的勤奋，我的善良是多么突出，内心让我真实的了解自己。我也许了解了自己，但一直都在逃避自己。 余华老师说，内心不是时时刻刻都
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-06-16 11:02" pubdate>
+              2022-06-16
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/my-thoughts/">my thoughts</a>
+            
+              <a href="/categories/my-thoughts/%E6%84%9F%E6%83%B3/">感想</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91/">我</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/17/%E8%80%83%E7%A0%94/" target="_self">
+          独自面对一切
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/17/%E8%80%83%E7%A0%94/" target="_self">
+          
+          独自面对一切，这是我的感觉。 没有人看好你，或者说，大家都认为这是飞蛾扑火？ 好像没有人支持我报华科，家人，好朋友；我也不敢和别人说我想考华科，也许，在我自己心里，我也是不相信自己的。 所有人都在说：“考研——选择大于努力啊”，而我的选择，肯定不是那个最好的选择。 看了无数遍今年的录取名单，看着那高的吓人的分数都被刷掉了，我的忧虑又加重了几分，当然，可能我都没有进入复试的资格。 我是不是没有认清自
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-17 00:00" pubdate>
+              2022-05-17
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/my-thoughts/">my thoughts</a>
+            
+              <a href="/categories/my-thoughts/%E8%80%83%E7%A0%94/">考研</a>
+            
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/14/d_h_b_circuit/" target="_self">
+          
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/14/d_h_b_circuit/" target="_self">
+          
+          错误语法：in[sel4+3 : sel4];用比特拼接代替assign out&#x3D;{in[sel4+3],in[sel4+2],in[sel4+1],in[sel4]}; 判断溢出的方法：（1）当两补码数运算时，符号位（最高位）发生了进位但数值最高位（次高位）没有发生进位说明发生了负溢出（两负数相加变成了正数），当最高位没发生进位，但次高位进位时，发生了正溢出。 （2）只有两操作数的符号相同才可能
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-14 15:36" pubdate>
+              2022-05-14
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/07/do%20hdl_bits-verilog%20language/" target="_self">
+          HDLbits刷题——verilog language
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/07/do%20hdl_bits-verilog%20language/" target="_self">
+          
+          基础语法 1.重复的比特拼接 错误示列： 12assign out&#x3D;&amp;#123;24&amp;#123;in[7]&amp;#125;,in&amp;#125;; 正确示列： 12assign out&#x3D;&amp;#123;&amp;#123;24&amp;#123;in[7]&amp;#125;&amp;#125;,in&amp;#125;; 2.归约操作符（reduction operators） 与按位运算符的符号一样，但操作数只有一个，对向量操作数逐位进行操作
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-07 17:31" pubdate>
+              2022-05-07
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E9%A1%B9%E7%9B%AE/">项目</a>
+            
+              <a href="/categories/%E9%A1%B9%E7%9B%AE/%E5%9F%BA%E4%BA%8EFPGA%E7%9A%84%E5%9B%BE%E5%83%8F%E9%87%87%E9%9B%86%E6%98%BE%E7%A4%BA%E7%B3%BB%E7%BB%9F/">基于FPGA的图像采集显示系统</a>
+            
+              <a href="/categories/%E9%A1%B9%E7%9B%AE/%E5%9F%BA%E4%BA%8EFPGA%E7%9A%84%E5%9B%BE%E5%83%8F%E9%87%87%E9%9B%86%E6%98%BE%E7%A4%BA%E7%B3%BB%E7%BB%9F/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5verilog%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%E4%B8%AA%E6%9C%88%EF%BC%89/">第一阶段verilog语言基础（一个月）</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/verilog/">verilog</a>
+            
+              <a href="/tags/HDLbits/">HDLbits</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/03/28/hexo%E9%83%A8%E7%BD%B2%E5%A4%A7%E5%9D%91/" target="_self">
+          屎里淘金——HEXO的部署
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/03/28/hexo%E9%83%A8%E7%BD%B2%E5%A4%A7%E5%9D%91/" target="_self">
+          
+          感慨 今天又是“屎里淘金”的一天。 害，整个一个大疲惫；就像之前给深度学习框架配置环境一样，是真的难受，和无语，不知道是电脑操作系统的问题，我属于是把能踩的坑都给踩了一遍，然后疯狂的需求解决方法，可恶的CSDN，真是一个“屎坑”啊，屎里捞针是真的难受。 也怪自己英语学的不好吧，在GitHub上的解释也看的一知半解的，翻译软件也是搁那瞎翻译。 但还好吧，算是苦尽甘来，终于是实现了hexo的“一条龙
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-03-28 22:34" pubdate>
+              2022-03-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">环境配置</a>
+            
+              <a href="/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/HEXO/">HEXO</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E9%87%87%E5%9D%91/">采坑</a>
+            
+              <a href="/tags/%E5%B1%8E%E9%87%8C%E6%B7%98%E9%87%91/">屎里淘金</a>
+            
+              <a href="/tags/hexo/">hexo</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/03/25/%E8%B5%B7%E8%88%AA/" target="_self">
+          起航
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/03/25/%E8%B5%B7%E8%88%AA/" target="_self">
+          
+          这才算是我搭建个人博客以来的第一篇文章吧，在每件事的开段，大家总是会写下自己的愿景，就好像一年的开始一样。我应该也不列外，只是，我更想把对自己在这两年半以来的自省与思考写下来，算是为今后的学习与生活指明一个大致的，持续一段时期的方向。 细细想来，大学本科生活已然敲响了快结束的铃声，其实早应进行自省，但也许，在这个特殊的时间节点，这种思考会来的更加深刻吧。 回首，对这几年的学习生活其实是不太满意的，
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-03-25 00:00" pubdate>
+              2022-03-25
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/my-thoughts/">my thoughts</a>
+            
+              <a href="/categories/my-thoughts/leaning/">leaning</a>
+            
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+        typing(title);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
